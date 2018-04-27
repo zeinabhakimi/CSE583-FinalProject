@@ -13,7 +13,7 @@ The main framework that I used was Nvidia Digits with Caffe in backend
 ## Dataset
 ### Test dataset
 
-I used [kitti dataset] http://www.cvlibs.net/download.php?file=data_object_image_2.zipand for my training. You can download the dataset from run following code to split the data into train/val
+I used [kitti dataset](http://www.cvlibs.net/download.php?file=data_object_image_2.zipand) for my training. You can download the dataset from run following code to split the data into train/val
 
 
 ### Tarining dataset
