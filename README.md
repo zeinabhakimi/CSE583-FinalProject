@@ -17,8 +17,8 @@ I used [kitti dataset](http://www.cvlibs.net/datasets/kitti/) . You can download
 
 Then use the following code to unzip and split the data into train/val. Input-dir is a path to the dataset file craeted above.
 
-'''
+```
 python kitti_data.py -i input-dir -o output-dir
-'''
+```
 
 ### dataset used for transfer learning
