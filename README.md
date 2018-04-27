@@ -24,7 +24,7 @@ python kitti_data.py -i input-dir -o output-dir
 ### Dataset used for transfer learning
 
 I used [MS-COCO dataset](http://cocodataset.org/#home) for training my network. 
-*Please download the 18 GB train images from [train_images](http://images.cocodataset.org/zips/train2017.zip). 
-*Please download the 1 GB val images from [val_images](http://images.cocodataset.org/zips/val2017.zip). 
-*Please download the tran/val annotation file from [train/val_annotation](http://images.cocodataset.org/annotations/annotations_trainval2017.zip)
+* Please download the 18 GB train images from [train_images](http://images.cocodataset.org/zips/train2017.zip). 
+* Please download the 1 GB val images from [val_images](http://images.cocodataset.org/zips/val2017.zip). 
+* Please download the tran/val annotation file from [train/val_annotation](http://images.cocodataset.org/annotations/annotations_trainval2017.zip)
 
