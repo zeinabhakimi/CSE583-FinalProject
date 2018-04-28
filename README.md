@@ -11,7 +11,7 @@ The main framework that I used was Nvidia Digits with Caffe in backend
 
 
 ## Dataset
-### Train and Test dataset
+### For Training and Testing
 
 I used [kitti dataset](http://www.cvlibs.net/datasets/kitti/). Please download the 12 GB images file from [images](http://www.cvlibs.net/download.php?file=data_object_image_2.zipand) and 5 MB labeles file from [labels](http://www.cvlibs.net/download.php?file=data_object_label_2.zip). Save both in a file kitti.
 
@@ -21,19 +21,30 @@ Then use the following code to unzip and split the data into train/val. This wou
 python kitti_data.py -i input-dir -o output-dir
 ``
 
-### Dataset used for transfer learning
+### For Transfer Learning
 
 I used [MS-COCO dataset](http://cocodataset.org/#home) for training my network. 
 * Please download the 18 GB train images from [train_images](http://images.cocodataset.org/zips/train2017.zip). Extract them to train2017. 
 * Please download the 1 GB val images from [val_images](http://images.cocodataset.org/zips/val2017.zip). Extract them to val2017.
 * Please download the tran/val_annotation file from [train/val_annotation](http://images.cocodataset.org/annotations/annotations_trainval2017.zip). Extract them to annotations_trainval2017. 
 * Please clone  [COCO API](https://github.com/cocodataset/cocoapi) to work with data. 
-To install PythonApi run "make" under cocoapi-master/PythonAPI as follow:
+To install PythonApi run following command under cocoapi-master/PythonAPI :
 ````
 python setup.py build_ext --inplace
 rm -rf build
 ````
 
-To preprocess 
+To preprocess the data and annotation file save prepare.py under cocoapi-master/PythonAPI and run:
 
+```
+python prepare.py 
+```
+
+To attach KITTI dataset and create COCO+KITTI dataset:
+
+'''
+
+'''
+
+### Pretrained model
 
