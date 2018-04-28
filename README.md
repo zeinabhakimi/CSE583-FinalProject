@@ -27,7 +27,6 @@ I used [MS-COCO dataset](http://cocodataset.org/#home) for training my network.
 * Please download the 18 GB train images from [train_images](http://images.cocodataset.org/zips/train2017.zip). Extract them to train2017. 
 * Please download the 1 GB val images from [val_images](http://images.cocodataset.org/zips/val2017.zip). Extract them to val2017.
 * Please download the tran/val_annotation file from [train/val_annotation](http://images.cocodataset.org/annotations/annotations_trainval2017.zip). Extract them to annotations_trainval2017. 
-
-In order to preprocess the data, please download the 
+* Please clone  [COCO API](https://github.com/cocodataset/cocoapi) to work with data
 
 
