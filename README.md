@@ -1,4 +1,4 @@
-# CSE583-FinalProject
+# CSE583-Final-Project
 
 ## Abstract
 
