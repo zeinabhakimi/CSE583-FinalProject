@@ -50,12 +50,13 @@ python prepare.py input-path-val  input-path-val-labels out-path-valimages out-p
 To attach KITTI dataset and create COCO+KITTI dataset please run:
 
 ```
-python attach.py input-path-kitti-train input-path-kitti-train-labels path-to-created-train path-to-created-train-labels 'train'
+python attach.py input-path-kitti-train input-path-kitti-train-labels path-to-createdtrain path-to-created-trainlabels 'train'
 ```
 And for attaching validation data:
 
 ```
 python attach.py input-path-kitti-val input-path-kitti-val-labels path-to-created-val path-to-created-val-labels 'val'
 ```
+
 ### Pretrained model
 
