@@ -15,7 +15,7 @@ The main framework that I used was Nvidia Digits with Caffe in backend
 
 I used [kitti dataset](http://www.cvlibs.net/datasets/kitti/). Please download the 12 GB images file from [images](http://www.cvlibs.net/download.php?file=data_object_image_2.zipand) and 5 MB labeles file from [labels](http://www.cvlibs.net/download.php?file=data_object_label_2.zip). Save both in a file kitti.
 
-Then use the following code to unzip and split the data into train/val. This would craete 1180 validation and 6373 train images with their labels. Input-dir is a path to the dataset file craeted above.
+Then use the following code to unzip and split the data into train/val. This would craete 1180 validation and 6373 train images with their labels. Input-dir is a path to the dataset file created above.
 
 ``
 python kitti_data.py -i input-dir -o output-dir
@@ -34,16 +34,23 @@ python setup.py build_ext --inplace
 rm -rf build
 ````
 
-To preprocess the data and annotation file save prepare.py under cocoapi-master/PythonAPI and run:
-
+To preprocess train dataset and its annotation save prepare.py under cocoapi-master/PythonAPI.
+Then make new files: train,train_label,val, val_label in which you want to save your output.
+Then run following command:
+ 
 ```
-python prepare.py 
+python prepare.py input-path-tain  input-path-train-labels out-path-images out-path-labels 'train'
 ```
 
+To preprocess val dataset run following:
+ 
+```
+python prepare.py input-path-val  input-path-val-labels out-path-images out-path-labels 'val'
+```
 To attach KITTI dataset and create COCO+KITTI dataset:
 
 ```
-
+python attach.py
 ```
 
 ### Pretrained model
