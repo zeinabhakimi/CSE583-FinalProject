@@ -13,8 +13,6 @@ import pylab
 def resize(dataDir1, dataDir2, out_dir, out_dir_label , x, ch):
 
         new_height = 384
-      
-        #annFile = '%s/annotations/instances_%s.json' % (dataDir1, dataType)
         annFile=dataDir1
         catNms = [ch]
         coco=COCO(annFile)
