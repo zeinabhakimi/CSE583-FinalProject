@@ -39,19 +39,23 @@ Then make new files: train,train_label,val, val_label in which you want to save 
 Then run following command:
  
 ```
-python prepare.py input-path-tain  input-path-train-labels out-path-images out-path-labels 'train'
+python prepare.py input-path-train  input-path-train-labels out-path-trainimages out-path-trainlabels 'train'
 ```
 
 To preprocess val dataset run following:
  
 ```
-python prepare.py input-path-val  input-path-val-labels out-path-images out-path-labels 'val'
+python prepare.py input-path-val  input-path-val-labels out-path-valimages out-path-vallabels 'val'
 ```
-To attach KITTI dataset and create COCO+KITTI dataset:
+To attach KITTI dataset and create COCO+KITTI dataset please run:
 
 ```
-python attach.py
+python attach.py input-path-kitti-train input-path-kitti-train-labels path-to-created-train path-to-created-train-labels 'train'
 ```
+And for attaching validation data:
 
+```
+python attach.py input-path-kitti-val input-path-kitti-val-labels path-to-created-val path-to-created-val-labels 'val'
+```
 ### Pretrained model
 
