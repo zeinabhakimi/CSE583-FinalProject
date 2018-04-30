@@ -57,7 +57,22 @@ And for attaching validation data:
 ```
 python attach.py input-path-kitti-val input-path-kitti-val-labels path-to-created-val path-to-created-val-labels 'val'
 ```
+### Training
+I used diffrent hyperparmaetrs for each training in digits.
+For training multi class detection car and pedesrtian following parametrs give the best results:
+learning rate: 0.0001
+learning rate function: Exponetial Decay
+solver type: Adam
 
-### Pretrained model
+### Pretrained models
 
-[Car-Detection](https://github.com/zeinabhakimi/CSE583-FinalProject/blob/master/attach.py)
+Car-Detection caffe model using KITTI dataset
+Pedestrian-Detection caffe model using KITTI dataset
+Car-Van-Detection caffe model using KITTI dataset
+Car-Truck-Detection caffe model using KITTI dataset
+Car-Pedestrian caffe model using COCO+KITTI dataset
+
+##Evaluating 
+```
+
+```
