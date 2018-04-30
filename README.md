@@ -60,4 +60,4 @@ python attach.py input-path-kitti-val input-path-kitti-val-labels path-to-create
 
 ### Pretrained model
 
-[Car-Detection] 
+[Car-Detection](https://github.com/zeinabhakimi/CSE583-FinalProject/blob/master/attach.py)
