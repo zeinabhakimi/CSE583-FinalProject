@@ -80,4 +80,4 @@ python test.py 20180323-143850-955b_epoch_30.0.tar.gz car-deploy.prototxt 000023
 ```
 ## Tested Results
 ![pic1](images/test-1.png)
-![pic2](images/test-2.png)
+![pic2](images/test2.png)
