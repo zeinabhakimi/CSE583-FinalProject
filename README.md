@@ -7,7 +7,7 @@ Finding diffrent objects in KITTI dataset with DetectNet method is our goal in t
 
 ## FrameWork 
 
-The main framework that I used was Nvidia Digits with Caffe in backend
+The main framework that I used was Nvidia Digits with Caffe in backend. Here is the link for [Digit](https://github.com/zeinabhakimi/DIGITS) instalation guide.
 
 
 ## Dataset
