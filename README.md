@@ -79,4 +79,4 @@ solver type: Adam
 python test.py 20170710-114615-8ec1_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
 ```
 ## Tested Results
-![pic1](images/cifar.png)
+![pic1](images/test-1.png)
