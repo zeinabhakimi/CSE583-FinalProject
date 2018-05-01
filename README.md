@@ -74,7 +74,7 @@ solver type: Adam
     20180403-173721-8303_epoch_600.0.tar.gz
 * Car-Pedestrian caffe model using COCO+KITTI dataset: 20180424-145615-eed4_epoch_100.0.tar.gz
 
-##Evaluating 
+## Evaluating 
 ```
-
+python test.py 20170710-114615-8ec1_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
 ```
