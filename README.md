@@ -67,12 +67,14 @@ solver type: Adam
 ### Pretrained models
 
 * Car-Detection caffe model using KITTI dataset : 20170710-114615-8ec1_epoch_30.0.tar.gz
-* Pedestrian-Detection caffe model using KITTI dataset: 
-* Car-Van-Detection caffe model using KITTI dataset
-* Car-Truck-Detection caffe model using KITTI dataset: 
+* Pedestrian-Detection caffe model using KITTI dataset: 20180321-152256-30b3_epoch_30.0.tar.gz
+* Car-Van-Detection caffe model using KITTI dataset:20180328-113456-7bcf_epoch_60.0.tar.gz
+* Car-Pedestrian-Detection caffe model using KITTI dataset for 60 and 600 epochs:
+ 	  20180328-170321-80ae_epoch_60.0.tar.gz
+    20180403-173721-8303_epoch_600.0.tar.gz
 * Car-Pedestrian caffe model using COCO+KITTI dataset: 20180424-145615-eed4_epoch_100.0.tar.gz
 
-##Evaluating 
+## Evaluating 
 ```
-
+python test.py 20170710-114615-8ec1_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
 ```
