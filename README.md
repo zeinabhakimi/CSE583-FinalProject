@@ -68,8 +68,10 @@ solver type: Adam
 
 * Car-Detection caffe model using KITTI dataset : 20170710-114615-8ec1_epoch_30.0.tar.gz
 * Pedestrian-Detection caffe model using KITTI dataset: 20180321-152256-30b3_epoch_30.0.tar.gz
-* Car-Van-Detection caffe model using KITTI dataset: 
-* Car-Pedestrian-Detection caffe model using KITTI dataset for 600 epochs: 20180403-173721-8303_epoch_600.0.tar.gz
+* Car-Van-Detection caffe model using KITTI dataset:20180328-113456-7bcf_epoch_60.0.tar.gz
+* Car-Pedestrian-Detection caffe model using KITTI dataset for 60 and 600 epochs:
+
+20180403-173721-8303_epoch_600.0.tar.gz
 * Car-Pedestrian caffe model using COCO+KITTI dataset: 20180424-145615-eed4_epoch_100.0.tar.gz
 
 ##Evaluating 
