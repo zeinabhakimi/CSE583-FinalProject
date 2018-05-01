@@ -76,7 +76,8 @@ solver type: Adam
 
 ## Evaluating 
 ```
-python test.py  	20180323-143850-955b_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
+python test.py 20180323-143850-955b_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
 ```
 ## Tested Results
 ![pic1](images/test-1.png)
+![pic1](images/test-2.png)
