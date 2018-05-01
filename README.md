@@ -15,7 +15,7 @@ The main framework that I used was Nvidia Digits with Caffe in backend
 
 I used [kitti dataset](http://www.cvlibs.net/datasets/kitti/). Please download the 12 GB images file from [images](http://www.cvlibs.net/download.php?file=data_object_image_2.zipand) and 5 MB labeles file from [labels](http://www.cvlibs.net/download.php?file=data_object_label_2.zip). Save both in a file kitti.
 
-Then use the following code to unzip and split the data into train/val. This would craete 1180 validation and 6373 train images with their labels. Input-dir is a path to the dataset file created above.
+Then use the following code to unzip and split the data into train/val. Input-dir is a path to the dataset file created above.
 
 ``
 python kitti_data.py -i input-dir -o output-dir
@@ -78,3 +78,5 @@ solver type: Adam
 ```
 python test.py 20170710-114615-8ec1_epoch_30.0.tar.gz car-deploy.prototxt 000023.png
 ```
+## Tested Results
+![pic1](images/cifar.png)
