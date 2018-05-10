@@ -3,7 +3,7 @@
 ## Abstract
 
 Object detection is the problem of finding and classifying a variable number of objects on an image. This can be done by using Deep Learning method like DetectNet which is provided by Nvidia Digits. DetectNet uses single neural network architecture as Yolo for finding both classses and bounding boxes in images. 
-Finding diffrent objects in KITTI dataset with DetectNet method is our goal in this project. The problem of using DetectNet to find multi class objects like Car plus Pedestrain in this dataset is reported by other people in foroums, but I did not find any papers refering to this problem. Since Digits is a new good enviroment for using Deep Learning methoeds more efficient, I have been motivated to target this issue. 
+Finding diffrent objects in KITTI dataset with DetectNet method is our goal in this project. The problem of using DetectNet to find multi class objects like Car plus Pedestrain in this dataset is reported by other people in foroums, but I did not find any papers refering to this problem. Since Digits is a new good enviroment for using Deep Learning methodes more efficient, I have been motivated to target this issue. 
 
 ## FrameWork 
 
